@@ -4,4 +4,23 @@ body {
     font-family: "komet", sans-serif;
     font-weight: 400;
     font-style: normal;
+
 }
+
+
+h1 {
+    background-color: #68320e;
+    text-align: center;
+    font-size: 35pt;
+
+    font-family: "dark-london", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    color: #fae7d1;
+    letter-spacing: 0.45dvw;
+    
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
