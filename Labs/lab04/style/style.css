@@ -6,35 +6,43 @@
 
 */
 
+body {
+background-color: rgba(155, 28, 187, 0.158);
+
+
+}
 
 p#ssn {
     color: brown;
     text-indent: 40px;
 }
+
 /*
 p#statusResult {
     color: rgb(26, 36, 167);
 }
+*/
 
 #cool {
-    color: rgb(78, 67, 2);
+    color: rgb(107, 10, 47);
     text-decoration: underline;
     text-indent: 30%;
 }
-*/
+
 
 body {
 
     font-size: 14pt;
     text-align: center;
+    margin-top: 0%;
 }
 
 .blue {
-color: blue;
+color: rgb(134, 191, 230);
 }
 
 .pink {
-    color: rgb(196, 3, 93);
+    color: rgb(255, 143, 195);
 }
 
 .red {
@@ -59,6 +67,7 @@ color: red;
     text-align: center;
 }
 
+/*
 .left {
     text-align: left;
 }
@@ -66,6 +75,7 @@ color: red;
 .right {
     text-align: right;
 }
+*/
 
 .bubblefont {
     font-family: "blow-up", sans-serif;
@@ -75,8 +85,8 @@ color: red;
 
 .future {
     font-family: "am-futurismo", sans-serif;
-font-weight: 400;
-font-style: normal;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .rl {
@@ -117,20 +127,37 @@ background-color: rgb(221, 204, 181);
 
 p.shaded {
 
-background-color: aquamarine;
-padding-top: 10pt 20pt ;
+background-color: rgb(198, 118, 223);
+padding-top: 0pt 0pt 0pt 0pt ;
 
 }
 
 /* sets rules and if and statements */
+
 h2.shaded {
 
-background-color: rgb(91, 163, 139);
+background-color: rgba(125, 57, 146, 0.87);
 
 }
 
 h1#pgTitle {
-    color: blueviolet;
+    color: rgb(79, 13, 141);
 }
 
+p {
+    margin: 0px
+}
 
+h2 {
+    margin: 0px
+}
+
+.darkpink {
+
+color: rgb(153, 48, 65);
+}
+
+div {
+    background-image: url('../IMG/purple-image.jpg');
+    padding: 10px;
+}
