@@ -13,7 +13,7 @@ background-color: rgba(155, 28, 187, 0.158);
 }
 
 p#ssn {
-    color: brown;
+    color: rgb(211, 87, 87);
     text-indent: 40px;
 }
 
@@ -24,7 +24,7 @@ p#statusResult {
 */
 
 #cool {
-    color: rgb(107, 10, 47);
+    color: rgb(255, 202, 222);
     text-decoration: underline;
     text-indent: 30%;
 }
@@ -141,7 +141,7 @@ background-color: rgba(125, 57, 146, 0.87);
 }
 
 h1#pgTitle {
-    color: rgb(79, 13, 141);
+    color: rgb(204, 149, 255);
 }
 
 p {
@@ -158,6 +158,11 @@ color: rgb(153, 48, 65);
 }
 
 div {
-    background-image: url('../IMG/purple-image.jpg');
+    background-image: url('../IMG/dark-purple-image.jpg');
     padding: 10px;
+}
+
+div > p {
+
+    color: aliceblue;
 }
