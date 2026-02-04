@@ -1,0 +1,74 @@
+* {
+outline: 1px solid magenta
+}
+
+#parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 22px 10px 10px 10px;
+
+}
+
+#username {
+    background-color: aquamarine;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10%;
+
+}
+
+
+
+#picture {
+
+    background-color: beige;
+    width: 300px;
+    height: 50vh;
+    border-radius: 10px;
+    
+
+}
+
+#profilepic {
+
+    background-color: rgb(0, 9, 138);
+    width: 20px;
+    height: 20px;
+
+}
+
+
+#caption {
+    background-color: aquamarine;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10%;
+}
+
+#icon {
+    background-color: rgb(97, 107, 255);
+    width: 20px;
+    height: 20px;
+
+}
+
+#left {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: space-evenly;
+}
+
+#right {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: right;
+
+}
