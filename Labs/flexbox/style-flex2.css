@@ -1,0 +1,34 @@
+* {
+outline: 1px solid magenta
+}
+
+:root {
+    font-size: 20px;
+}
+
+#main-container {
+    width: 100%; 
+    height: 500px;  
+    background-color: aquamarine;
+    padding: 10px;
+    display: flex; /* this rule activates flex layout for a container */
+    flex-direction: row-reverse; /* determines the direction of the content flow */
+    justify-content: center; /* align items based on the main axis */
+    align-items: center; /* align items based on the cross axis */
+    gap: 10px; /* only available for flex and grid */
+    overflow-x: scroll;
+
+}
+
+#main-container div {
+    background-color: rgb(255, 211, 90);
+    padding: 20px;
+    min-width: 200px;
+    min-height: 300px;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    
+}

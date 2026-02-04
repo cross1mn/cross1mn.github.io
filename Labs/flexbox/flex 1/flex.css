@@ -1,0 +1,24 @@
+:root {
+
+    font-size: 16px;
+}
+
+div {
+    /* outline: 3px solid #ff00ff; */
+    padding: 10px;
+    max-width: 400px;
+    max-height: 500px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    transform: skewY(45deg) rotate(240deg) scale(0.5,2) translate(-210px,200px);
+     
+
+}
+
+p {
+
+    background-color: rgb(255, 190, 24);
+    padding: 5px;
+    min-width: 600px;
+    
+}
