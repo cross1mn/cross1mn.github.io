@@ -12,16 +12,21 @@ outline: 1px solid magenta
 }
 
 #username {
-    background-color: aquamarine;
+    background-color: rgb(255, 137, 69);
     width: 300px;
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+    align-items: space-evenly;
     flex-wrap: wrap;
     gap: 10%;
 
 }
 
+#el {
+    
 
+}
 
 #picture {
 
@@ -33,11 +38,26 @@ outline: 1px solid magenta
 
 }
 
+
+
 #profilepic {
 
     background-color: rgb(0, 9, 138);
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: left;
+    flex-wrap: wrap;
+
+}
+
+#userlocation {
+
+    background-color: rgb(255, 255, 255);
+
 
 }
 
