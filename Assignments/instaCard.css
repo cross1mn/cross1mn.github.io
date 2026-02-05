@@ -16,15 +16,17 @@ outline: 1px solid magenta
     width: 300px;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    align-items: space-evenly;
     flex-wrap: wrap;
     gap: 10%;
 
 }
 
 #el {
-    
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: end;
+    gap: 10%;
 
 }
 
