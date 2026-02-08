@@ -16,30 +16,21 @@ outline: 1px solid magenta
     width: 300px;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    gap: 10%;
+    justify-content: space-between;
+    align-items: space-evenly;
+    /* flex-wrap: wrap; */
+    /* gap: 90px; */
 
 }
 
-#el {
+.profileUsername {
+
+    background-color: blueviolet;
     display: flex;
     flex-direction: row;
-    justify-content: end;
-    align-items: end;
-    gap: 10%;
-
+    justify-content: flex-start;
+    align-items:left;
 }
-
-#picture {
-
-    background-color: beige;
-    width: 300px;
-    height: 50vh;
-    border-radius: 10px;
-    
-
-}
-
 
 
 #profilepic {
@@ -59,17 +50,40 @@ outline: 1px solid magenta
 #userlocation {
 
     background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 
 
 }
+
+#el {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#picture {
+
+    background-color: beige;
+    width: 300px;
+    height: 50vh;
+    border-radius: 10px;
+    
+
+}
+
 
 
 #caption {
     background-color: aquamarine;
     width: 300px;
-    display: flex;
+    /* display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: wrap; */
     gap: 10%;
 }
 
@@ -83,8 +97,8 @@ outline: 1px solid magenta
 #left {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    align-items: space-evenly;
+    justify-content: left;
+    align-items: left;
 }
 
 #right {
@@ -93,4 +107,19 @@ outline: 1px solid magenta
     justify-content: right;
     align-items: right;
 
+}
+
+#ovIcons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: right;
+
+}
+
+#rightC {
+
+    background-color: black;
+    width: 20px;
+    height: 20px;
 }
