@@ -1,0 +1,127 @@
+/* * {
+outline: 1px solid rgb(255, 0, 0)
+
+} */
+
+
+#maincontainer {
+
+    /* outline: 1px solid black; */
+    width: 100vw; 
+    height: 100vh; 
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#chessboard {
+
+    width: 85vw;
+    height: 85vw;
+
+    min-height: 50vw;
+    min-width: 50vw;
+    max-width: 90vh;
+    max-height: 90vh;
+
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+#chessboard > div {
+    /* outline: solid 3px rgb(255, 0, 0); */
+    width: 100%;
+    height: 12.5%;
+    /* height: 50px; */
+
+    display: flex;
+    flex-direction: row;
+    /* flex-grow: 1; */
+}
+
+#chessboard div div {
+    /* width: 50px;
+    height: 50px; */
+    width: 12.5%;
+    flex-grow: 1;
+
+    font-size: 6vw;
+    color: rgb(0, 0, 139);
+
+    background-color: #458fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* #one div:nth-of-type(even) {
+    background-color: black;
+
+
+}
+
+#two div:nth-of-type(odd) {
+    background-color: black;
+
+
+} */
+
+#seven div:nth-of-type(3) {
+
+    background-color: rgb(12, 0, 65);
+}
+
+#chessboard div:nth-of-type(even) div:nth-of-type(even) {
+    background-color: rgb(175, 255, 224);
+}
+
+#chessboard div:nth-of-type(odd) div:nth-of-type(odd) {
+    background-color: rgb(175, 255, 224);
+}
+
+div#word.alphabet {
+
+    background-color: white;
+    
+}
+
+div#word.number {
+
+    background-color: white;
+     display: flex;
+     flex-direction: column;
+     padding: 50px 10px 10px 10px;
+
+     width: 12.5%;
+    flex-grow: 1;
+
+    font-size: 6vw;
+    color: rgb(0, 0, 139);
+
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* #chessboard div div:nth-of-type(odd) {
+    background-color: blueviolet;
+
+
+} */
+
+
+
+
+
+
