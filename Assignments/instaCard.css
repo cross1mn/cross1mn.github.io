@@ -16,9 +16,9 @@ outline: 1px solid magenta
     justify-content: center;
     align-items: center;
 
-    width: 350px;
+    width: 325px;
     height: 65vh;
-    padding: 5px;
+    padding: 15px 0px 40px 0px;
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
 
