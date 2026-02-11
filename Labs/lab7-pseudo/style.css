@@ -1,0 +1,145 @@
+:root{
+
+    font-size: 20pt;
+}
+
+* {
+
+    outline: 1px solid rgb(51, 255, 0);
+}
+
+body {
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* I will remove this later */
+}
+
+header, nav, main, footer {
+
+    
+
+}
+
+header {
+
+    background-color: brown;
+    height: 200px;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+
+    background-color: rgb(255, 153, 0);
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+nav a {
+
+    display: inline-block;
+    padding: 0.5rem;
+    font-size: 1.25rem;
+
+    
+    /* text-decoration: underline double bisque 10px; */
+}
+
+nav a:link {
+
+   /* background-color: blueviolet; */
+   color: aliceblue;
+
+}
+
+nav a:hover {
+
+    background-color: rgb(255, 178, 127);
+    color: brown;
+    text-decoration: underline double bisque 10px;
+}
+
+main {
+
+    background-color: blanchedalmond;
+    min-height: 500px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    
+}
+
+aside {
+    background-color: rgb(255, 72, 0);
+    width: 200px;
+    /* flex-grow: 1; */
+    /* order: 2; */
+    display: flex;
+    flex-direction: column;
+
+    padding: 10px;
+
+}
+
+aside a {
+
+    color: aliceblue;
+    text-decoration: none;
+}
+
+aside a:hover {
+
+    color: aliceblue;
+    text-decoration: underline;
+}
+
+article {
+    background-color: rgb(255, 0, 191);
+    /* height: 100px; */
+    flex-grow: 1;
+    /* order: 1; */
+
+    
+
+}
+
+article:hover {
+    background-color: rgb(119, 29, 97);
+    /* height: 100px; */
+    flex-grow: 1;
+    /* order: 1; */
+    transform: rotate(12deg);
+
+}
+
+article:focus {
+    background-color: rgb(119, 29, 97);
+    /* height: 100px; */
+    flex-grow: 1;
+    /* order: 1; */
+    transform: scale(1.5);
+
+}
+
+div {
+
+    background-color: aqua;
+    width: 30%;
+    height: 30%;
+}
+
+/* add a drop shadow */
+
+footer {
+    background-color: rgb(106, 48, 114);
+    min-height: 100px;
+
+}
