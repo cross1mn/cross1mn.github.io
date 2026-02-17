@@ -63,32 +63,51 @@ outline: 1px solid rgb(255, 0, 0)
 
 }
 
-/* #one div:nth-of-type(even) {
-    background-color: black;
-
-
+#one div:nth-of-type(even) {
+    background-color: rgb(175, 255, 224);
 }
 
 #two div:nth-of-type(odd) {
-    background-color: black;
-
-
-} */
-
-#seven div:nth-of-type(3) {
-
-    background-color: rgb(12, 0, 65);
+    background-color: rgb(175, 255, 224);
 }
 
-#chessboard div:nth-of-type(even) div:nth-of-type(even) {
+#three div:nth-of-type(even) {
+    background-color: rgb(175, 255, 224);
+}
+
+#four div:nth-of-type(odd) {
+    background-color: rgb(175, 255, 224);
+}
+
+#five div:nth-of-type(even) {
+    background-color: rgb(175, 255, 224);
+}
+
+#six div:nth-of-type(odd) {
+    background-color: rgb(175, 255, 224);
+}
+
+#seven div:nth-of-type(even) {
+    background-color: rgb(175, 255, 224);
+}
+
+#eight div:nth-of-type(odd) {
+    background-color: rgb(175, 255, 224);
+}
+
+/* #seven div:nth-of-type(3) {
+    background-color: rgb(175, 255, 224);
+} */
+
+/* #chessboard div:nth-of-type(even) div:nth-of-type(even) {
     background-color: rgb(175, 255, 224);
 }
 
 #chessboard div:nth-of-type(odd) div:nth-of-type(odd) {
     background-color: rgb(175, 255, 224);
-}
+} */
 
-div#word.alphabet {
+.alphabet {
 
     background-color: white;
     display: flex;
@@ -97,15 +116,48 @@ div#word.alphabet {
     
 }
 
+    #word div:nth-of-type(1) {
+        background-color: rgb(255, 255, 255);
+    }
+
+    #word div:nth-of-type(2) {
+        background-color: rgb(255, 255, 255);
+    }
+
+    #word div:nth-of-type(3) {
+        background-color: rgb(255, 255, 255);
+    }
+
+    #word div:nth-child(4) {
+        background-color: rgb(255, 255, 255);
+    }
+
+    #word div:nth-of-type(5) {
+        background-color: rgb(255, 255, 255);
+    }
+
+    #word div:nth-of-type(6) {
+        background-color: rgb(255, 255, 255);
+    }
+
+    #word div:nth-of-type(7) {
+        background-color: rgb(255, 255, 255);
+    }
+
+    #word div:nth-child(8) {
+        background-color: rgb(255, 255, 255);
+    }
+
 div#word.number {
 
     background-color: white;
      display: flex;
      flex-direction: column;
-     padding: 50px 10px 10px 10px;
+     padding: 50px 5px 10px 0px;
 
      width: 12.5%;
-    flex-grow: 1;
+     flex-grow: 1;
+     /* gap: 10%; */
 
     font-size: 6vw;
     color: rgb(0, 0, 139);
