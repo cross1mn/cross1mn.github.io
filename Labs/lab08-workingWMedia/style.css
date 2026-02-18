@@ -1,0 +1,76 @@
+* {
+    outline: 2px solid rgb(255, 127, 149);
+}
+
+
+body {
+    margin: 0;
+    /* color: rgb(255, 255, 255); */
+
+    background-image: url("../../MEDIA/flower.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* background-clip: border-box; */
+
+}
+
+
+#maincontainer {
+
+    background-color: aqua;
+
+    width: 100vw;
+    height: 100vh;  
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    background-image: url("../../MEDIA/goldfish-100.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+
+}
+
+.maincontainer div {
+
+    background-image: url("../../MEDIA/goldfish-100.jpg");
+    background-position: center;
+    background-repeat: no repeat;
+    background-size: cover;
+    background-clip: border-box;
+
+    width: 500px;
+    height: 300px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+p {
+
+    width: 500px;
+    height: 300px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+img {
+    width: 100%;
+
+}

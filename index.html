@@ -29,6 +29,11 @@
             <p> <a href="/Labs/lab7-boxSizing/index.html" target="_blank">Box Sizing</a> </p>
             <p> <a href="/Labs/lab7-pseudo/index.html" target="_blank">Pseudo</a> </p>
         </div>
+
+        <div id="laterlabs">
+            <p> <a href="/Labs/lab08-workingWMedia/index.html" target="_blank">P</a> </p>
+        
+        </div>
             <p> <a href="/Portfolio/portfolio.html" target="_blank">Portfolio</a> </p>
         <div id="portfolio">
 
@@ -39,79 +44,80 @@
 
     <!-- Notes from the Class -->
     <section> 
-        <h2>Notes from Web Design II</h2>
+        <div id="notes">
+            <h2>Notes from Web Design II</h2>
 
-        <p>
-            <ul>
-                <li>defining the visual style - CSS /
-                    "if turned, open" / 
-                    "if pressed turn on the lamp"</li>
-                <li>STRUCTURE = html</li>
-                <li>STYLE = CSS (cascading style sheets)</li>
-                <li>INTERACTIONS = JS</li>
-                <li>html = house with only walls</li>
-                <li>block elements</li>
-                <li>priority line: inline CSS / internal css has / external css</li>
-                <li> defining the visual style - CSS</li>
-                <li> ID selectors, class selectors, element selectors</li>
-                <li> universal -> *</li>
-                <li> control / is a note</li>
-                <li>"rem" will scale it </li>
-                <!-- notes -->
-                
-            </ul>
-            <h3>2/2/26</h3>
-            <ul>
-                <li>containers -> div, section, nav, header, main</li>
-                <li>can adjust the alignment with flex</li>
-                <li>main axis vs the cross axis whether it go horizontal or vertical</li>
-             </ul>
+            <p>
+                <ul>
+                    <li>defining the visual style - CSS /
+                        "if turned, open" / 
+                        "if pressed turn on the lamp"</li>
+                    <li>STRUCTURE = html</li>
+                    <li>STYLE = CSS (cascading style sheets)</li>
+                    <li>INTERACTIONS = JS</li>
+                    <li>html = house with only walls</li>
+                    <li>block elements</li>
+                    <li>priority line: inline CSS / internal css has / external css</li>
+                    <li> defining the visual style - CSS</li>
+                    <li> ID selectors, class selectors, element selectors</li>
+                    <li> universal -> *</li>
+                    <li> control / is a note</li>
+                    <li>"rem" will scale it </li>
+                    <!-- notes -->
+                    
+                </ul>
+                <h3>2/2/26</h3>
+                <ul>
+                    <li>containers -> div, section, nav, header, main</li>
+                    <li>can adjust the alignment with flex</li>
+                    <li>main axis vs the cross axis whether it go horizontal or vertical</li>
+                </ul>
 
-            <h3>2/4/26</h3>
-            <ul>
-                <li>absolute units: px (pixels), in (inches), cm, mm, pt (point) -> used for default font size, pc (picas) </li>
-                <li>96 pixels = 1 inch = 1/6 picas</li>
-                <li>relative units: % (percentage) -> 100% means fill the container, em -> look at parent and amplify itself by it, rem (root em) -> only cares about the default point size, vw & vh -> </li>
-             </ul>
+                <h3>2/4/26</h3>
+                <ul>
+                    <li>absolute units: px (pixels), in (inches), cm, mm, pt (point) -> used for default font size, pc (picas) </li>
+                    <li>96 pixels = 1 inch = 1/6 picas</li>
+                    <li>relative units: % (percentage) -> 100% means fill the container, em -> look at parent and amplify itself by it, rem (root em) -> only cares about the default point size, vw & vh -> </li>
+                </ul>
 
-             <h3>2/9/26</h3>
-            <ul>
-                <li>CSS Combinators</li>
-                <li>selector { rule: value; }</li>
-                <li>h1 -> element selector </li>
-                <li>#logo -> id selector</li>
-                <li>.gallery -> class selector</li>
-                <li>-main, section,  div, div, div</li>
-                <li> main > 2nd section > 2nd div</li>
-                <li>child combinator - #chessboard > div</li>
-                <li>nth of type, nth child, nth last of type, nth last child</li>
-                <li>h1~div -> h1 and all of the subsequent divs</li>
-             </ul>
+                <h3>2/9/26</h3>
+                <ul>
+                    <li>CSS Combinators</li>
+                    <li>selector { rule: value; }</li>
+                    <li>h1 -> element selector </li>
+                    <li>#logo -> id selector</li>
+                    <li>.gallery -> class selector</li>
+                    <li>-main, section,  div, div, div</li>
+                    <li> main > 2nd section > 2nd div</li>
+                    <li>child combinator - #chessboard > div</li>
+                    <li>nth of type, nth child, nth last of type, nth last child</li>
+                    <li>h1~div -> h1 and all of the subsequent divs</li>
+                </ul>
 
-              <h3>2/11/26</h3>
-            <ul>
-                <li>box-sizing</li>
-                <li>content bo vs border box</li>
-                <li>pseudo classes - :link, :hover, :focus, :active, :visited</li>
-                <li>block -, inline, inline-block - wraps the content but play with width and height values</li>
-             </ul>
+                <h3>2/11/26</h3>
+                <ul>
+                    <li>box-sizing</li>
+                    <li>content bo vs border box</li>
+                    <li>pseudo classes - :link, :hover, :focus, :active, :visited</li>
+                    <li>block -, inline, inline-block - wraps the content but play with width and height values</li>
+                </ul>
 
-             <h3>2/18/26</h3>
-            <ul>
-                <li>media formats</li>
-                <li>img optimization</li>
-                <li>background</li>
-                <li>resampling</li>
-                <li>alter channel</li>
-                <li>JPEG -> .jpg, not lossless, cannot resize without loss, optimized, no AC</li>
-                <li>PNG -> .png, is lossless, cannot resize without loss, no optimization, yes AC</li>
-                <li>WEBP -> .webp, cannot resize without loss, good balance between quality and size, yes AC</li>
-                <li>SCALABLE VECTOR GRAPHIC -> .svg, not lossless, can resize without loss, usually not expensive, yes AC</li>
-                <li>try to stay under 1 MG</li>
-             </ul>
+                <h3>2/18/26</h3>
+                <ul>
+                    <li>media formats</li>
+                    <li>img optimization</li>
+                    <li>background</li>
+                    <li>resampling</li>
+                    <li>alter channel</li>
+                    <li>JPEG -> .jpg, not lossless, cannot resize without loss, optimized, no AC</li>
+                    <li>PNG -> .png, is lossless, cannot resize without loss, no optimization, yes AC</li>
+                    <li>WEBP -> .webp, cannot resize without loss, good balance between quality and size, yes AC</li>
+                    <li>SCALABLE VECTOR GRAPHIC -> .svg, not lossless, can resize without loss, usually not expensive, yes AC</li>
+                    <li>try to stay under 1 MG</li>
+                </ul>
 
-        </p>
-
+            </p>
+        </div>
     </section>
 
 </body>
