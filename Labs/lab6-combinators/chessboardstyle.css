@@ -40,7 +40,7 @@ outline: 1px solid rgb(255, 0, 0)
 #chessboard > div {
     /* outline: solid 3px rgb(255, 0, 0); */
     width: 100%;
-    height: 12.5%;
+    height: 11.1%;
     /* height: 50px; */
     aspect-ratio: 1/1;
 
@@ -53,11 +53,11 @@ outline: 1px solid rgb(255, 0, 0)
 #chessboard div div {
     /* width: 50px;
     height: 50px; */
-    width: 12.5%;
+    width: 11.1%;
     flex-grow: 1;
     aspect-ratio: 1/1;
 
-    font-size: 6vw;
+    font-size: 5vw;
     color: rgb(0, 0, 139);
 
     background-color: #458fff;
