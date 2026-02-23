@@ -1,0 +1,66 @@
+* {
+    outline: 2px magenta solid;
+
+}
+
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.background {
+
+    background-color: rgb(197, 166, 128);
+    width: 600px;
+    height: 800px;
+    /* position: fixed; */
+    z-index: 2;
+}
+
+.one{
+    color: rgb(68, 22, 0);
+    font-size: 600pt;
+    position: relative;
+    max-width: 100px;
+    max-height: 100px;
+    bottom: 20px;
+    left: 20px;
+    /* z-index: 3; */
+
+}
+
+
+.white-o {
+
+    color: rgb(255, 243, 235);
+    font-size: 250pt;
+    position: relative;
+    bottom: 150px;
+    right: 150px;
+
+
+}
+
+
+.letter-P {
+    color: rgb(68, 22, 0);
+    font-size: 280pt;
+    transform: rotate(-30deg);
+    position: relative;
+    /* max-width: 100px;
+    max-height: 100px; */
+    top:0px;
+    right: 0px;
+    /* z-index: 1; */
+
+}
+
+.el {
+    position: absolute;
+    top:20px;
+    right: 100px;
+
+}
