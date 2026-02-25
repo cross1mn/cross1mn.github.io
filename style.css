@@ -1,9 +1,10 @@
-* {
+/* * {
 outline: 1px solid magenta
-}
+} */
 
 body {
 
+    color: aliceblue;
     margin: 0;
     background-color: #6912f5;
     font-family: "komet", sans-serif;
@@ -35,7 +36,7 @@ h1 {
     font-weight: 400;
     font-style: normal;
 
-    color: #fae7d1;
+    color: #e3d1fa;
     letter-spacing: 0.45dvw;
     
     padding-top: 40px;
@@ -56,6 +57,13 @@ h1 {
     flex-wrap: wrap;
 
     gap: 10px;
+
+    color: aliceblue;
+}
+
+#allthelinks:active {
+    color: aliceblue;
+
 }
 
 /* #allthelinks::before {
