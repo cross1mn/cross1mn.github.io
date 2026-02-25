@@ -58,11 +58,26 @@ h1 {
 
     gap: 10px;
 
-    color: aliceblue;
+    /* color: aliceblue; */
 }
 
-#allthelinks:active {
+a:active {
+    color: rgb(122, 59, 158);
+
+}
+
+a:hover {
     color: aliceblue;
+
+}
+
+a:visited {
+    color: rgb(224, 207, 250);
+
+}
+
+a:link {
+    color: rgb(255, 229, 253);
 
 }
 
