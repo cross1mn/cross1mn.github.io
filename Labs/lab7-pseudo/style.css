@@ -112,7 +112,8 @@ article {
     align-items: center;
     gap: 10px;
 
-    
+    overflow: hidden;
+    overflow: scroll;
 
 }
 
@@ -137,8 +138,11 @@ article:focus {
 div {
 
     background-color: rgb(107, 14, 119);
-    width: 30%;
-    height: 45%;
+    width: 10rem;
+    height: 10rem;
+    gap: 10px;
+
+    min-width: 5rem;
     font-size: 14pt;
     color: rgb(252, 240, 255);
 
@@ -146,6 +150,7 @@ div {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
 }
 
 div:hover {
@@ -158,11 +163,13 @@ div:hover {
 }
 
 img {
-    width: 70%;
-    height: 80%;
+    width: 5rem;
+    height: 5rem;
 
-    min-width: 50px;
-    min-height: 70px;
+    object-fit: cover;
+
+    /* min-width: 50px;
+    min-height: 70px; */
     
 
 }
