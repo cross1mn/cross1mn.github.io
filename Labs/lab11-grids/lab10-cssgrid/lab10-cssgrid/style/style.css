@@ -19,20 +19,31 @@ img {
 
 main {
 
+    min-height: 100vh;
+
     display: grid;
     grid: "header header header header"
-            "side nav nav nav"
-            "side page page page"
-            "side footer footer footer";
+            "nav nav nav nav"
+            "page page page page"
+            "side side side side"
+            "footer footer footer footer";
+
+    grid-template-rows: auto 50px 60vh auto auto;
 }
 
 header {
 
     grid-area: header;
+    font-size: 3rem;
 }
 
 nav {
     grid-area: nav;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
 }
 
 aside {
@@ -54,4 +65,49 @@ header, article, nav, footer, aside {
 
     border: 5px solid black;
     padding: 0.7rem;
+}
+
+/* ipad layout breakpoint */
+@media screen and (min-width: 768px) {
+   
+    nav {
+        justify-content: flex-start;
+    }
+
+}
+
+/* laptop layout breakpoint */
+@media screen and (min-width: 992px) {
+
+    main {
+
+    min-height: 100vh;
+
+    display: grid;
+    grid: "side header header header"
+            "side nav nav nav"
+            "side page page page"
+            "footer footer footer footer";
+
+    grid-template-rows: auto 50px 60vh auto auto;
+}
+
+}
+
+/* desktop layout breakpoint */
+@media screen and (min-width: 1200px) {
+
+    main {
+
+    min-height: 100vh;
+
+    display: grid;
+    grid: "side header header header header header"
+            "side nav nav nav nav nav"
+            "side page page page page page"
+            "footer footer footer footer";
+
+    grid-template-rows: auto 50px 60vh auto auto;
+}
+
 }
