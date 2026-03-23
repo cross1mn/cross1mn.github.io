@@ -1,0 +1,146 @@
+:root {
+
+    font-size: 24px;
+}
+
+
+#grid-container {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+img {
+
+    width: 100%;
+    height: auto;
+}
+
+#grid-container img:nth-child(2) {
+
+    grid-row: 1 / span 2;
+    grid-column: 1 / span 3;
+
+}
+
+main {
+
+    min-height: 100vh;
+
+    display: grid;
+    grid: "header header header header"
+            "nav nav nav nav"
+            "page page page page"
+            "side side side side"
+            "footer footer footer footer";
+
+    grid-template-rows: auto 50px 60vh auto auto;
+}
+
+header {
+
+    grid-area: header;
+    font-size: 3rem;
+}
+
+nav {
+    grid-area: nav;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+aside {
+
+    grid-area: side;
+}
+
+article {
+
+    grid-area: page;
+}
+
+footer {
+
+    grid-area: footer;
+}
+
+header, article, nav, footer, aside {
+
+    border: 5px solid black;
+    padding: 0.7rem;
+}
+
+
+#brickContainer {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr 2fr);
+    grid-template-rows: auto;
+}
+
+#brickContainer div {
+
+    border: 3px solid blue;
+}
+
+/* #brickContainer div:nth-child(1) {
+
+    grid-row: 1 / span 4;
+    grid-column: 1 / span 3;
+}
+
+#brickContainer div:nth-child(4) {
+
+    grid-row: 1 / span 2;
+    grid-column: 6 / span 6;
+} */
+
+
+/* ipad layout breakpoint */
+@media screen and (min-width: 768px) {
+   
+    nav {
+        justify-content: flex-start;
+    }
+
+}
+
+/* laptop layout breakpoint */
+@media screen and (min-width: 992px) {
+
+    main {
+
+    min-height: 100vh;
+
+    display: grid;
+    grid: "side header header header"
+            "side nav nav nav"
+            "side page page page"
+            "footer footer footer footer";
+
+    grid-template-rows: auto 50px 60vh auto auto;
+}
+
+}
+
+/* desktop layout breakpoint */
+@media screen and (min-width: 1200px) {
+
+    main {
+
+        min-height: 100vh;
+
+        display: grid;
+        grid: "side header header header header header"
+                "side nav nav nav nav nav"
+                "side page page page page page"
+                "footer footer footer footer";
+
+        grid-template-rows: auto 50px 60vh auto auto;
+    }
+
+}
