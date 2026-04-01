@@ -7,7 +7,7 @@
 body {
 
     background-color: black;
-    background-image: url("../Portfolio/A2_Cross_Content/Graphics/beautiful-shining-stars-night-sky\ 4.png");
+    background-image: url("../Portfolio/A2_Cross_Content/Graphics/background.jpg");
 
     background-position: center;
     background-repeat: repeat;
@@ -16,11 +16,22 @@ body {
     
 }
 
+/* position absolute - top 0, other one is right 0, background live stars */
+
 #HOME {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+#headerGraphic {
+
+    position: absolute;
+    max-width: 100px;
+    max-height: 100px;
+    top: 0px;
+    left: 0px;
 }
 
 #introPic img {
@@ -66,15 +77,38 @@ nav {
     position: fixed;
     max-width: 100px;
     max-height: 100px;
-    bottom: 150px;
-    right: 350px;
+    bottom: 15vh;
+    right: 50vw;
 }
+
 
 nav a {
     border-radius: 7.113px;
     background: #7A0C8B;
     box-shadow: -3.32px 3.32px 1.897px 0 rgba(173, 159, 175, 0.25);
+    ;
 
+    /* display: inline-block; */
+    padding: 0.25rem;
+
+    color: aliceblue;
+
+    /* flex: ; */
+
+}
+
+
+nav a:link {
+
+   background-color: blueviolet;
+   color: aliceblue;
+
+}
+
+nav a:hover {
+
+    background-color: linear-gradient(180deg, #CB9AFF 0%, #B351C2 100%);
+    color: rgb(0, 0, 0);
 }
 
 
