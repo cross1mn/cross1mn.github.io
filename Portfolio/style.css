@@ -70,7 +70,7 @@ nav {
     right: 350px;
 }
 
-nav div {
+nav a {
     border-radius: 7.113px;
     background: #7A0C8B;
     box-shadow: -3.32px 3.32px 1.897px 0 rgba(173, 159, 175, 0.25);
