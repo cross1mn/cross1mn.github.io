@@ -1,6 +1,6 @@
 :root {
 
-    font-size: 18pt;
+    font-size: 20pt;
     color: #FFF;
 }
 
@@ -13,7 +13,20 @@ body {
     background-repeat: repeat;
     background-size:contain;
     background-clip: border-box;
+
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+
     
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+
+
 }
 
 /* position absolute - top 0, other one is right 0, background live stars */
@@ -28,20 +41,42 @@ body {
 #headerGraphic {
 
     position: absolute;
-    max-width: 50px;
-    max-height: 50px;
+    max-width: 300px;
+    max-height: 300px;
     top: 0px;
     left: 0px;
+
+    z-index: 2;
 }
+
+/* #bottomGraphic {
+
+    position: absolute;
+    max-width: 50px;
+    max-height: 50px;
+    bottom: 0px;
+    right: 0px;
+
+    width: 267.015px;
+    height: 413.642px;
+    transform: rotate(-19.709deg);
+    aspect-ratio: 51/79;
+
+    z-index: 2;
+} */
 
 #logo {
 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     z-index: 3;
 }
 
 #introPic img {
     width: 314px;
-    max-width: 500px;
+    max-width: 100%;
     height: 432px;
     /* aspect-ratio: 157/216; */
 
@@ -52,11 +87,13 @@ body {
     border: 6px solid #FFF;
     /* background: url(A2_Cross_Content/Graphics/Cross_Marayla_Shallow_DOF_13.jpg) lightgray -39.188px -98px / 112.54% 122.685% no-repeat, conic-gradient(from 180deg at 50% 50%, #F5B7D3 40.021793246269226deg, #2E276C 327.35957622528076deg); */
 
+    z-index: 3;
+
 }
 
 img {
 
-    max-width: 500px;
+    max-width: 100%;
     
 }
 
@@ -69,8 +106,31 @@ img {
     opacity: 0.56;
     background: linear-gradient(180deg, #CB9AFF 0%, #B351C2 100%);
     filter: blur(144px);
+
+    position: absolute;
+    max-width: 250px;
+    max-height: 250px;
+    top: 0px;
+    left: 0px;
+
+    z-index: 1;
 }
 
+
+#PROJECTS {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#branding {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 nav {
 
@@ -80,20 +140,22 @@ nav {
     justify-content: center;
 
     position: fixed;
-    max-width: 100px;
+    /* max-width: 100px; */
     max-height: 100px;
-    bottom: 15vh;
-    right: 50vw;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
 }
+
+
 
 
 nav a {
     border-radius: 7.113px;
     background: #7A0C8B;
     box-shadow: -3.32px 3.32px 1.897px 0 rgba(173, 159, 175, 0.25);
-    ;
+    
 
-    /* display: inline-block; */
     padding: 0.25rem;
 
     color: aliceblue;
@@ -101,6 +163,24 @@ nav a {
     /* flex: ; */
 
 }
+
+nav a:not(:nth-of-type(1)) {
+
+    display: none;
+}
+
+nav a:nth-of-type(1) {
+    display: block;
+
+
+}
+
+/* hiddenmenu {
+    
+} */
+
+
+
 
 
 nav a:link {
@@ -129,4 +209,17 @@ footer {
     flex-direction: row;
     justify-content: center;
     gap: 5vw;
+}
+
+
+header {
+
+    font-size: 1rem;
+}
+
+
+#content {
+    
+    font-size: 0.5rem;
+
 }
