@@ -30,7 +30,7 @@ main {
     display: flex;
     flex-direction: column;
     gap: 100px;
-    padding: 10px;
+    padding: 10px 10px 110px 10px;
 
 
 }
@@ -136,56 +136,56 @@ img {
     gap: 80px;
 }
 
-#PROJECTS p {
+    #PROJECTS p {
 
-    margin: 0px;
-    font-size: 1.25rem;
-}
+        margin: 0px;
+        font-size: 1.25rem;
+    }
 
-#branding {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 0px;
+    #branding {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
 
-    margin: 0px;
-}
+        margin: 0px;
+    }
 
 
-#posters {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    #posters {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
 
-}
+    }
 
-#booklets {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    #booklets {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
 
-}
+    }
 
-#UI {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 0px;
+    #UI {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
 
-}
+    }
 
-#printmaking {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 0px;
+    #printmaking {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
 
-}
+    }
 
 /* --NAVIGATION-------------------------------- */
 
@@ -261,6 +261,12 @@ footer {
 
     background: linear-gradient(107deg, #A268AC 4.26%, #2E2453 65.79%);
     padding: 10px;
+
+    /* position: absolute;
+    bottom: 0px; */
+
+    margin: 0px;
+
 }
 
 #footerContent {
@@ -284,29 +290,24 @@ header {
 
 }
 
+
 /* --RESPONSIVE MEDIA--------------------- */
 
+
 /* styles for ipad/med */
-@media screen and (min-width: 768px) {}
+@media screen and (min-width: 768px) {
+
+
+}
 
 
 /* styles for laptop/lg */
 @media screen and (min-width: 992px) {
 
-    h1 {text-align: left;}
 
-    .med {display: none;}
-    .lg {display: contents;}
-
-    body { background-color:rgba(0, 143, 119, 0.781)}
 }
 
 /* styles for computer/xl */
 @media screen and (min-width: 1200px) {
-    .lg {display: none;}
-    .xl {display: contents;
-        font-size: 2rem;
-    }
 
-     body { background-color:rgba(27, 129, 90, 0.753)}
 }
