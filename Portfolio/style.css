@@ -1,7 +1,11 @@
 :root {
 
-    font-size: 20pt;
+    font-size: 32pt;
     color: #FFF;
+
+    font-family: "rift", sans-serif;
+    font-weight: 600;
+    font-style: normal;
 }
 
 body {
@@ -25,6 +29,8 @@ body {
 main {
     display: flex;
     flex-direction: column;
+    gap: 100px;
+    padding: 10px;
 
 
 }
@@ -118,6 +124,7 @@ img {
     z-index: 1;
 }
 
+/* --PROJECTS-------------------------------- */
 
 #PROJECTS {
 
@@ -129,13 +136,22 @@ img {
     gap: 80px;
 }
 
+#PROJECTS p {
+
+    margin: 0px;
+    font-size: 1.25rem;
+}
+
 #branding {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 0px;
+
+    margin: 0px;
 }
+
 
 #posters {
     display: flex;
@@ -171,6 +187,7 @@ img {
 
 }
 
+/* --NAVIGATION-------------------------------- */
 
 nav {
 
@@ -181,14 +198,17 @@ nav {
 
     position: fixed;
     /* max-width: 100px; */
-    max-height: 100px;
-    bottom: 30px;
+    /* max-height: 100px; */
+    bottom: 135px;
     left: 50%;
     transform: translateX(-50%);
 }
 
+nav img {
 
-
+    max-width: 50px;
+    max-height: 50px;
+}
 
 nav a {
     border-radius: 7.113px;
@@ -262,4 +282,31 @@ header {
     
     font-size: 0.5rem;
 
+}
+
+/* --RESPONSIVE MEDIA--------------------- */
+
+/* styles for ipad/med */
+@media screen and (min-width: 768px) {}
+
+
+/* styles for laptop/lg */
+@media screen and (min-width: 992px) {
+
+    h1 {text-align: left;}
+
+    .med {display: none;}
+    .lg {display: contents;}
+
+    body { background-color:rgba(0, 143, 119, 0.781)}
+}
+
+/* styles for computer/xl */
+@media screen and (min-width: 1200px) {
+    .lg {display: none;}
+    .xl {display: contents;
+        font-size: 2rem;
+    }
+
+     body { background-color:rgba(27, 129, 90, 0.753)}
 }
