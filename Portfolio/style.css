@@ -32,7 +32,6 @@ main {
     gap: 100px;
     padding: 10px 10px 110px 10px;
 
-
 }
 
 /* position absolute - top 0, other one is right 0, background live stars */
@@ -142,6 +141,30 @@ img {
         font-size: 1.25rem;
     }
 
+    #PROJECTS > div {
+
+        /* align-self: center;
+        justify-self: center; */
+
+        width: 70%;
+        /* max-height: 300px; */
+       
+        aspect-ratio: 1/1;
+        /* background-color:#A268AC; */
+
+
+
+
+    }
+     #PROJECTS img {
+
+        width: 100%;
+        height: auto;
+        
+     }
+
+
+
     #branding {
         display: flex;
         flex-direction: column;
@@ -158,6 +181,9 @@ img {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+
+        max-width: 300px;
+        padding: 20px;
 
     }
 
@@ -183,6 +209,8 @@ img {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+
+        padding: 20px;
         gap: 0px;
 
     }
@@ -196,25 +224,33 @@ nav {
     align-items: center;
     justify-content: center;
 
-    position: fixed;
+    /* background: linear-gradient(107deg, #A268AC 4.26%, #2E2453 65.79%); */
+
+    gap: 10px;
+
+    position: sticky;
     /* max-width: 100px; */
     /* max-height: 100px; */
-    bottom: 135px;
+    bottom: 30px;
     left: 50%;
-    transform: translateX(-50%);
+    /* transform: translateX(-50%); */
+
+    font-size: 0.25rem;
 }
 
 nav img {
 
-    max-width: 50px;
-    max-height: 50px;
+    max-width: 25px;
+    max-height: 25px;
 }
 
 nav a {
     border-radius: 7.113px;
-    background: #7A0C8B;
     box-shadow: -3.32px 3.32px 1.897px 0 rgba(173, 159, 175, 0.25);
-    
+    background: linear-gradient(107deg, #A268AC 4.26%, #2E2453 65.79%);
+
+
+    font-size: 0.25rem;
 
     padding: 0.25rem;
 
@@ -296,7 +332,189 @@ header {
 
 /* styles for ipad/med */
 @media screen and (min-width: 768px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+        padding: 15px 15px 110px 15px;
 
+    }
+
+    #logo {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: 3;
+
+    }
+
+    #introPic img {
+        width: 270px;
+        max-width: 100%;
+        /* height: 432px; */
+        aspect-ratio: 157/216;
+
+        /* position: relative; */
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        border: 6px solid #FFF;
+        /* background: url(A2_Cross_Content/Graphics/Cross_Marayla_Shallow_DOF_13.jpg) lightgray -39.188px -98px / 112.54% 122.685% no-repeat, conic-gradient(from 180deg at 50% 50%, #F5B7D3 40.021793246269226deg, #2E276C 327.35957622528076deg); */
+
+        z-index: 1;
+
+    }
+
+    img {
+
+        max-width: 100%;
+        
+    }
+    
+    #HOME {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 0px 20px 0px;
+    }
+
+    #PROJECTS {
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+        /* display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        
+        justify-items: center;
+        place-items: center;
+        
+
+        grid-auto-flow: auto;
+
+        gap: 90px; */
+    }
+
+    #PROJECTS > div {
+
+        /* align-self: center;
+        justify-self: center; */
+
+        width: 30%;
+
+
+    }
+
+     #UI {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
+
+        /* transform: rotate(6deg) translate(250px, 10px); */
+        transform: rotate(6deg);
+
+        /* position: absolute;
+        right: 50%;
+        top: 75%; */
+
+
+
+    }
+
+    #branding {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
+
+        margin: 0px;
+    }
+
+
+    #posters {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    #booklets {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+
+    #printmaking {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
+
+    }
+
+    nav {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    position: fixed;
+    /* max-width: 100px; */
+    /* max-height: 100px; */
+    bottom: 135px;
+    left: 50%;
+    transform: translateX(-50%);
+    }
+
+
+    nav img {
+
+    max-width: 50px;
+    max-height: 50px;
+    }
+
+nav a {
+    border-radius: 7.113px;
+    background: linear-gradient(107deg, #A268AC 4.26%, #2E2453 65.79%);
+
+    box-shadow: -3.32px 3.32px 1.897px 0 rgba(173, 159, 175, 0.25);
+    
+
+    padding: 0.25rem;
+
+    color: aliceblue;
+
+    /* flex: ; */
+
+}
+
+nav a:not(:nth-of-type(1)) {
+
+    display: block;
+}
+
+nav a:nth-of-type(1) {
+    display: none;
+
+
+}
 
 }
 
