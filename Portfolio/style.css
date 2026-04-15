@@ -58,6 +58,17 @@ main {
     z-index: 2;
 }
 
+#headerGraphic2 {
+
+    position: absolute;
+    max-width: 300px;
+    max-height: 300px;
+    top: 0px;
+    left: 0px;
+
+    z-index: -1;
+}
+
 #bottomGraphic {
 
     position: absolute;
@@ -279,10 +290,6 @@ nav a:nth-of-type(1) {
     
 } */
 
-
-
-
-
 nav a:link {
 
    background-color: blueviolet;
@@ -297,6 +304,8 @@ nav a:hover {
 }
 
 
+/* --footer-------------------------------- */
+
 footer {
 
     background: linear-gradient(107deg, #A268AC 4.26%, #2E2453 65.79%);
@@ -309,13 +318,13 @@ footer {
 
 }
 
-#footerContent {
+    #footerContent {
 
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 5vw;
-}
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 5vw;
+    }
 
 
 header {
@@ -328,6 +337,39 @@ header {
     
     font-size: 0.5rem;
 
+}
+
+/* --DETAILS PAGE---------------------------- */
+
+#carousel {
+
+    display: flex;
+    flex-direction: row;
+}
+
+#logo2 {
+
+    width: 100px;
+    height: auto;
+
+    position: absolute;
+    max-width: 200px;
+    max-height: 200px;
+    top: 5px;
+    right: 5px;
+
+    z-index: -1;
+
+}
+
+.info {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
 }
 
 
