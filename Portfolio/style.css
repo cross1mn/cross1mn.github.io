@@ -354,6 +354,43 @@ header {
     flex-direction: row;
 }
 
+#carousel-background {
+
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+
+    position: absolute;
+    top: 50px;
+    left: 0px;
+}
+
+section#carousel {
+
+    background-color: brown;
+    /* padding: 20px; */
+    overflow-x: hidden;
+
+    border-radius:20%;
+    transform: rotate(30deg);
+    filter:blur(40px);
+    z-index: -3;
+
+    animation: propeller 10s linear infinite;
+
+}
+
+#carousel-wrapper {
+
+    display: flex;
+    flex-direction: row;
+    /* overflow-x: hidden; */
+    /* transform: translateX(-300px); */
+
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation: carousel-move 0.5s linear infinite;
+}
+
 #logo2 {
 
     width: 100px;
