@@ -9,8 +9,8 @@
 
 <body>
     
-    <div id="overlay-menu">
-        <a href="#">✖</a>
+    <div id="overlay-menu"  class="overlay-menu open" ; display: flex;">
+        <a href="#" onclick="closeOverlay()">✖</a>
         <a href="index.html">Home</a>
         <a href="students.html">Students</a>
         <!-- <a href="bio.html">Projects</a> -->
@@ -21,7 +21,7 @@
     <header>
         <span class="brand">Class of 2027</span>
          <nav>
-            <a href="#">☰</a>
+            <a href="#" onclick="openOverlay()">☰</a>
             <a href="index.html">Home</a>
             <a href="students.html">Students</a>
             <!-- <a href="bio.html">Projects</a> -->
@@ -42,10 +42,12 @@
 
             <div>
         
-            <source srcset="IMGs/img/class-vertical.webp" media="(min-width: 900px)" type="image/webp">
-            <img src="IMGs/img/class-vertical.webp" alt="GD Class of 2027">
+                <source srcset="IMGs/img/class-vertical.webp" media="(min-width: 900px)" type="image/webp">
+                <img src="IMGs/img/class-vertical.webp" alt="GD Class of 2027">
             
-             <h1>GD Class</h1>
+                <div class="grid3x1">
+                    <h1>GD Class</h1>
+                </div>
 
             </div>
 
@@ -75,5 +77,10 @@
 
         </div>
     
+
+        <script src="JS/script.js">
+
+
+        </script>
 </body>
 </html>

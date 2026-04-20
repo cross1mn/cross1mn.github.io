@@ -51,7 +51,7 @@ body {
 /* global styles end */
 
 
-#overlay-menu {
+.overlay-menu {
 
     background-color: burlywood;
     width: 100vw;
@@ -69,6 +69,10 @@ body {
     gap: var(--gridGap);
 
     font-size: 1.4rem;
+    color: white;
+
+    transition: ease-in-out 0.9s;
+    overflow: hidden;
 
 
 }
@@ -86,7 +90,10 @@ body {
     right: var(--containerPadding);
 }
 
+/* .overlay-menu open {
 
+    display: flex;
+} */
 
 
 
