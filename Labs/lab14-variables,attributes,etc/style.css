@@ -53,7 +53,7 @@ body {
 
 .overlay-menu {
 
-    background-color: burlywood;
+    background-color: var(--primaryColor);
     width: 100vw;
     height: 100vh;
 
@@ -69,7 +69,7 @@ body {
     gap: var(--gridGap);
 
     font-size: 1.4rem;
-    color: white;
+    color: var(--secondaryColor);
 
     transition: ease-in-out 0.9s;
     overflow: hidden;
@@ -193,6 +193,12 @@ body {
         #student-grid > div {
 
             background-color: var(--primaryColor);
+            padding: var(--cardPadding);
+        }
+
+        #student-grid > div:hover {
+
+            background-color: var(--secondaryColor);
             padding: var(--cardPadding);
         }
 
@@ -399,7 +405,7 @@ footer {
 
 
      #student-grid {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 
 /* 
@@ -473,6 +479,10 @@ footer {
         grid-column: 2;
         grid-row: 1;
     } 
+
+    #student-grid {
+            grid-template-columns: repeat(3, 1fr);
+        }
 
     /* #students {
         grid-template-columns: repeat(1, 1fr 4fr 1fr); 
