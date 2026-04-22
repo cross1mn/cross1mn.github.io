@@ -153,7 +153,7 @@ img {
     z-index: 1;
 }
 
-/* --PROJECTS-------------------------------- */
+/* --PROJECTS STRART-------------------------------- */
 
 #PROJECTS {
 
@@ -182,10 +182,8 @@ img {
         aspect-ratio: 1/1;
         /* background-color:#A268AC; */
 
-
-
-
     }
+
      #PROJECTS img {
 
         width: 100%;
@@ -193,57 +191,56 @@ img {
         
      }
 
+        #branding {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 0px;
 
+            margin: 0px;
+        }
 
-    #branding {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 0px;
+        #posters {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
 
-        margin: 0px;
-    }
+            max-width: 300px;
+            padding: 20px;
 
+        }
 
-    #posters {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        #booklets {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
 
-        max-width: 300px;
-        padding: 20px;
+        }
 
-    }
+        #UI {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 0px;
 
-    #booklets {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        }
 
-    }
+        #printmaking {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
 
-    #UI {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 0px;
+            padding: 20px;
+            gap: 0px;
 
-    }
+        }
 
-    #printmaking {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-        padding: 20px;
-        gap: 0px;
-
-    }
+/* PROJECTS END */
 
 /* --NAVIGATION-------------------------------- */
 
@@ -261,7 +258,7 @@ nav {
     position: sticky;
     /* max-width: 100px; */
     /* max-height: 100px; */
-    bottom: 30px;
+    bottom: 20px;
     left: 50%;
     /* transform: translateX(-50%); */
 
@@ -294,6 +291,45 @@ nav a:not(:nth-of-type(1)) {
 
 nav a:nth-of-type(1) {
     display: block;
+}
+
+.overlay-menu {
+
+    background-color: var(--primaryColor);
+    width: 100vw;
+    height: 100vh;
+
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: var(--gridGap);
+
+    font-size: 1.4rem;
+    color: var(--secondaryColor);
+
+    transition: ease-in-out 0.9s;
+    overflow: hidden;
+
+
+}
+
+#overlay-menu a {
+
+    color: white;
+    padding: var(--cardPadding)
+}
+
+#overlay-menu a:nth-of-type(1) {
+
+    position: absolute;
+    top: var(--containerPadding);
+    right: var(--containerPadding);
 }
 
 /* hiddenmenu {
@@ -505,6 +541,8 @@ section#carousel {
       height: 100%;
       object-fit: cover;
     }
+
+
 
 
 /* --RESPONSIVE MEDIA--------------------- */
