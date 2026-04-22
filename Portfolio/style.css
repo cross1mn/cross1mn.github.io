@@ -295,7 +295,7 @@ nav a:nth-of-type(1) {
 
 .overlay-menu {
 
-    background-color: var(--primaryColor);
+    /* background-color: var(--primaryColor); */
     width: 100vw;
     height: 100vh;
 
@@ -315,7 +315,6 @@ nav a:nth-of-type(1) {
 
     transition: ease-in-out 0.9s;
     overflow: hidden;
-
 
 }
 
