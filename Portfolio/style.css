@@ -52,6 +52,16 @@ main {
 
 }
 
+#about2 > main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding: 10px 10px 0px 10px;
+
+}
+
 
 /* position absolute - top 0, other one is right 0, background live stars */
 
@@ -242,6 +252,86 @@ img {
 
 /* PROJECTS END */
 
+
+/* --ABOUT START ---------------------------------------- */
+
+    #aboutMarayla {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    /* body {
+    background-color: #333;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 40px;
+    } */
+
+    path {
+        fill: transparent;
+    }
+
+    text {
+        font-size: 40pt;
+        fill: #FFF;
+
+        /* font-family: "rift", sans-serif;
+        font-weight: 600;
+        font-style: normal; */
+
+    }
+
+    svg {
+        position: absolute;
+        max-width: 500px;
+        max-height: 500px;
+        top: 90px;
+        left: 50%;
+        /* transform: translateX(-50%); */
+
+        z-index: 3;
+
+    }
+
+    #aboutMarayla > #logo {
+        /* position: absolute;
+        max-width: 500px;
+        max-height: 500px;
+        top: 100px;
+        left: 50%;
+        transform: translateX(-50%);
+
+        z-index: 3; */
+
+
+    }
+
+    #aboutTop {
+        display: flex;
+        flex-direction: column;
+        
+        
+        position: relative;
+        max-width: 500px;
+        max-height: 500px;
+        top: 100px;
+        left: 50%;
+        transform: translateX(-50%);
+
+        z-index: 3;
+
+
+        /* padding: 150px 0px 0px 0px; */
+
+        z-index: 3;
+    }
+
+/* --ABOUT END --------------------------------------------*/
+
+
+
 /* --NAVIGATION-------------------------------- */
 
 nav {
@@ -258,17 +348,17 @@ nav {
     position: sticky;
     /* max-width: 100px; */
     /* max-height: 100px; */
-    bottom: 20px;
+    bottom: 10%;
     left: 50%;
-    /* transform: translateX(-50%); */
+    transform: translateX(-50%);
 
     font-size: 0.5rem;
 }
 
 nav img {
 
-    max-width: 25px;
-    max-height: 25px;
+    max-width: 50px;
+    max-height: 50px;
 }
 
 nav a {
@@ -276,9 +366,11 @@ nav a {
     box-shadow: -3.32px 3.32px 1.897px 0 rgba(173, 159, 175, 0.25);
     background: linear-gradient(107deg, #A268AC 4.26%, #2E2453 65.79%);
 
-    font-size: 0.25rem;
-    padding: 0.25rem;
+    font-size: 0.5rem;
+    padding: 0.5rem;
     color: aliceblue;
+
+    text-decoration: none;
 
     /* flex: ; */
 
@@ -299,23 +391,24 @@ nav a:nth-of-type(1) {
     width: 100vw;
     height: 100vh;
 
-    position: absolute;
-    top: 0px;
-    left: 0px;
+    max-width: 500px;
+
+    position: sticky;
+    bottom: 10px;
+    left: 50%;
     z-index: 2;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: var(--gridGap);
+    /* gap: var(--gridGap); */
 
-    font-size: 1.4rem;
+    font-size: 0.4rem;
     color: var(--secondaryColor);
 
     transition: ease-in-out 0.9s;
-    overflow: hidden;
-
+    /* overflow: hidden; */
 }
 
 #overlay-menu a {
@@ -326,9 +419,10 @@ nav a:nth-of-type(1) {
 
 #overlay-menu a:nth-of-type(1) {
 
-    position: absolute;
-    top: var(--containerPadding);
-    right: var(--containerPadding);
+    position: sticky;
+    top: 50%;
+    right: 50%;
+    transform: translateX(-50%);
 }
 
 /* hiddenmenu {
@@ -528,7 +622,7 @@ section#carousel {
     .swiper-slide {
       text-align: center;
       font-size: 18px;
-      background: #444;
+      /* background: #444; */
       display: flex;
       justify-content: center;
       align-items: center;
@@ -695,7 +789,7 @@ section#carousel {
     position: fixed;
     /* max-width: 100px; */
     /* max-height: 100px; */
-    bottom: 135px;
+    bottom: 100px;
     left: 50%;
     transform: translateX(-50%);
     }
@@ -739,6 +833,45 @@ nav a:nth-of-type(1) {
 /* styles for laptop/lg */
 @media screen and (min-width: 992px) {
 
+    nav {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    /* background: linear-gradient(107deg, #A268AC 4.26%, #2E2453 65.79%); */
+
+    gap: 10px;
+
+    position: sticky;
+    /* max-width: 100px; */
+    /* max-height: 100px; */
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    font-size: 0.5rem;
+    }
+
+    nav img {
+
+        max-width: 50px;
+        max-height: 50px;
+    }
+
+    nav a {
+        border-radius: 7.113px;
+        box-shadow: -3.32px 3.32px 1.897px 0 rgba(173, 159, 175, 0.25);
+        background: linear-gradient(107deg, #A268AC 4.26%, #2E2453 65.79%);
+
+        font-size: 0.5rem;
+        padding: 0.5rem;
+        color: aliceblue;
+
+        /* flex: ; */
+
+    }
 
 }
 
