@@ -387,42 +387,70 @@ nav a:nth-of-type(1) {
 
 .overlay-menu {
 
-    /* background-color: var(--primaryColor); */
+    background-color: black;
+    background-image: url("../Portfolio/A2_Cross_Content/Graphics/background.jpg");
+
+    background-position: center;
+    background-repeat: repeat;
+    background-size:contain;
+    background-clip: border-box;
+
+    margin: 0px;
+
     width: 100vw;
     height: 100vh;
 
-    max-width: 500px;
+    /* max-width: 500px; */
 
-    position: sticky;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+
+    /* position: sticky;
     bottom: 10px;
     left: 50%;
-    z-index: 2;
+    z-index: 2; */
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* gap: var(--gridGap); */
+    gap: 20px;
 
     font-size: 0.4rem;
     color: var(--secondaryColor);
 
     transition: ease-in-out 0.9s;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 #overlay-menu a {
 
     color: white;
-    padding: var(--cardPadding)
+    padding: 20px;
+
+    border-radius: 7.113px;
+    box-shadow: -3.32px 3.32px 1.897px 0 rgba(173, 159, 175, 0.25);
+    background: linear-gradient(107deg, #A268AC 4.26%, #2E2453 65.79%);
+
+    font-size: 0.5rem;
+    padding: 0.5rem;
+    color: aliceblue;
+
+    text-decoration: none;
 }
 
 #overlay-menu a:nth-of-type(1) {
 
-    position: sticky;
+    /* position: sticky;
     top: 50%;
     right: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-50%); */
+
+    /* position: relative; */
+    /* top: 100px;
+    right: 20px; */
 }
 
 /* hiddenmenu {
