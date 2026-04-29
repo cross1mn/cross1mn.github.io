@@ -13,8 +13,8 @@ const swiper = new Swiper('.swiper', {
 //   },
 
   autoplay: {
-        delay: 250000,
-        disableOnInteraction: false,
+        delay: 3550,
+        disableOnInteraction: true,
       },
 
   // Navigation arrows
