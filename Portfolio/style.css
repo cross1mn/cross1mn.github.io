@@ -38,7 +38,7 @@ main {
     align-items: center;
     justify-content: center;
     gap: 100px;
-    padding: 10px 10px 110px 10px;
+    padding: 10px 10px 0px 10px;
 
 }
 
@@ -172,7 +172,7 @@ img {
     justify-content: center;
     align-items: center;
 
-    gap: 80px;
+    gap: 120px;
 }
 
     #PROJECTS p {
@@ -352,7 +352,7 @@ nav {
     left: 50%;
     transform: translateX(-50%);
 
-    font-size: 0.5rem;
+    font-size: 0.4rem;
 }
 
 nav img {
@@ -366,8 +366,8 @@ nav a {
     box-shadow: -3.32px 3.32px 1.897px 0 rgba(173, 159, 175, 0.25);
     background: linear-gradient(107deg, #A268AC 4.26%, #2E2453 65.79%);
 
-    font-size: 0.5rem;
-    padding: 0.5rem;
+    font-size: 0.4rem;
+    padding: 20px;
     color: aliceblue;
 
     text-decoration: none;
@@ -396,6 +396,7 @@ nav a:nth-of-type(1) {
     background-clip: border-box;
 
     margin: 0px;
+    /* padding: 100px 0px 0px 0px; */
 
     width: 100vw;
     height: 100vh;
@@ -405,7 +406,7 @@ nav a:nth-of-type(1) {
     position: absolute;
     top: 0px;
     left: 0px;
-    z-index: 2;
+    z-index: 3;
 
     /* position: sticky;
     bottom: 10px;
@@ -416,12 +417,12 @@ nav a:nth-of-type(1) {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 25px;
 
     font-size: 0.4rem;
     color: var(--secondaryColor);
 
-    transition: ease-in-out 0.9s;
+    transition: ease 0.9s;
     overflow: hidden;
 }
 
@@ -435,10 +436,23 @@ nav a:nth-of-type(1) {
     background: linear-gradient(107deg, #A268AC 4.26%, #2E2453 65.79%);
 
     font-size: 0.5rem;
-    padding: 0.5rem;
     color: aliceblue;
 
     text-decoration: none;
+}
+
+#overlay-menu a:nth-of-type(5) {
+    padding: 20px;
+
+    position: absolute;
+    bottom: 10%;
+
+}
+
+#overlay-menu img {
+    max-width: 30px;
+    padding: 0px;
+
 }
 
 #overlay-menu a:nth-of-type(1) {
@@ -908,6 +922,16 @@ nav a:nth-of-type(1) {
 
 /* styles for laptop/lg */
 @media screen and (min-width: 992px) {
+
+    #PROJECTS {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        gap: 120px;
+    }
 
     nav {
 
