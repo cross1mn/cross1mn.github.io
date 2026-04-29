@@ -470,6 +470,54 @@ nav a:hover {
     color: rgb(0, 0, 0);
 }
 
+/* -- NAVIGATION END ------------------------------------ */
+
+
+
+/* -- CONTACT PAGE START ------------------------------------- */
+
+form {
+
+    font-size: 0.5rem;
+    padding: 10px;
+    max-width: 75vw;
+
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+
+    gap: 15px;
+}
+
+/* label {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    justify-content: left;
+
+} */
+
+input, textarea, button {
+    font-size: 1rem;
+
+}
+
+/* [type="text"] {
+
+    font-size: 1rem;
+    max-width: 90vw;
+}
+
+[type="email"] {
+
+    font-size: 1rem;
+    max-width: 90vw;
+} */
+
+/* -- CONTACT PAGE END ------------------------------------- */
+
+
 
 /* --footer start-------------------------------- */
 
