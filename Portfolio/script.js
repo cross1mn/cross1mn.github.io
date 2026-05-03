@@ -35,7 +35,7 @@ console.log("Java Script is nice");
 
 // Close the overlay 
 function closeOverlay () {
-    document.getElementById("overlay-menu").style.width = "0";
+    document.getElementById("overlay-menu").style.width = "0px";
 }
 
 // Open the overlay 
