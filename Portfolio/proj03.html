@@ -5,34 +5,156 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>booklets</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
 </head>
+
 <body>
-    
-    <main>
 
+    <section id="details2">
 
-         <nav>
-            <a href="home-projects.html">HOME</a>
-            <a href="home-projects.html">WORK</a>
-            <a href="about.html">ABOUT</a>
-            <a href="contact.html">CONTACT</a>
-        </nav>
+        <main>
 
-        <footer>
-            <div id="footerContent">
+            <section id="details">
 
-                <a href="https://www.linkedin.com/in/maraylacross/?trk=public-profile-join-page" target="_blank">
-                    <img src="A2_Cross_Content/Graphics/logo-linkedin.svg" alt="linkedin"> 
-                </a>
+                <div id="headerGraphic2">
+                    <img src="A2_Cross_Content/Graphics/1top.png" alt="">
+                    <div class="hShadow"></div>
+                </div>
 
-                <a href="https://www.instagram.com/maraylaDesigns/" target="_blank">
-                    <img src="A2_Cross_Content/Graphics/logo-instagram.svg" alt="instagram"> 
-                </a>
-            
+                <div id="logo2">
+                    <img src="A2_Cross_Content/Graphics/maraylaDesigns.png" alt="">
+                </div>
+
+                <div class="info">
+                    <header>BOOKLETS</header>
+                    <p id="content">
+                        Home Decor in 2024 is a 16 page booklet exploring the typography in home decorations. Pictured on the side are five of the pages in the spread. The focus was specifically on the “Millennial” or “Mom” home decor aesthetic, which stems off the modern simplicity of the current century. I tried to make the booklet itself reflect the simplicity of the signs using only black/ white, very simple graphics, and a focus on the figure/ ground relationship of the elements.
+                    </p>
+                </div>
+
+                <div id="string"></div>
+
+                <div id="carousel-background">
+
+                    <section id="carousel">
+
+                        <div id="carousel-wrapper">
+
+                            <div id="AIGA">
+                                <!-- <img src="A2_Cross_Content/Graphics/clothes pins purple.png" alt=""> -->
+                                <img src="A2_Cross_Content/Projects/P03_Booklets/5 Fold Accordion Mockup Type2.png" alt="AIGA Poster">
+                            
+                            </div>
+                            
+                            <div id="hierachy">
+                                <!-- <img src="A2_Cross_Content/Graphics/clothes pins purple.png" alt=""> -->
+                                <img src="A2_Cross_Content/Projects/P02_PosterSeries/posters life in type.png" alt="Life in Type Poster">
+
+                            </div>
+
+                            <div id="family">
+                                <!-- <img src="A2_Cross_Content/Graphics/clothes pins purple.png" alt=""> -->
+                                <img src="A2_Cross_Content/Projects/P02_PosterSeries/posters no way home.png" alt="">
+                            
+                            </div>
+                            
+                            <div id="zon't">
+                                <!-- <img src="A2_Cross_Content/Graphics/clothes pins purple.png" alt=""> -->
+                                <img src="A2_Cross_Content/Projects/P02_PosterSeries/posters zont zo it.png" alt="">
+
+                            </div>
+
+                            <div id="heritage">
+                                <!-- <img src="A2_Cross_Content/Graphics/clothes pins purple.png" alt=""> -->
+                                <img src="A2_Cross_Content/Projects/P02_PosterSeries/posters heritage month posters.png" alt="">
+
+                            </div>
+                        </div>
+                        
+                    </section>
+                </div>
+
+            </section>
+
+        <!-- Slider main container -->
+            <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="A2_Cross_Content/Projects/P03_Booklets/5 Fold Accordion Mockup Type2.png" alt="AIGA Poster"></div>
+                <div class="swiper-slide"><img src="A2_Cross_Content/Projects/P03_Booklets/COVER ...Horizontal_Book_Mockup_6 - Copy.png" alt=""></div>
+                <div class="swiper-slide"><img src="A2_Cross_Content/Projects/P03_Booklets/PG 2... Horizontal_Book_Mockup_3.png" alt=""></div>
+                <div class="swiper-slide"><img src="A2_Cross_Content/Projects/P03_Booklets/PG 3... Horizontal_Book_Mockup_5.png" alt=""></div>
+                <div class="swiper-slide"><img src="A2_Cross_Content/Projects/P03_Booklets/We Are the Future Poster.png" alt="Life in Type Poster"></div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
             </div>
 
-        </footer>
-    </main>
+            <!-- <div id="overlay-menu"  class="overlay-menu open" ; display: flex;">
+                <a href="#" onclick="closeOverlay()">
+                    <img src="A2_Cross_Content/Graphics/hamburger.png" alt="">
+                </a>
+                <a href="home-projects.html">HOME</a>
+                <a href="about.html">ABOUT</a>
+                <a href="contact.html">CONTACT</a>
+            </div> -->
+
+
+            <div id="overlay-menu"  class="overlay-menu open" ; display: flex;">
+                <a href="home-projects.html">HOME</a>
+                <a href="home-projects.html">WORK</a>
+                <a href="about.html">ABOUT</a>
+                <!-- <a href="bio.html">Projects</a> -->
+                <a href="contact.html">CONTACT</a>
+                <a href="#" onclick="closeOverlay()">✖</a>
+
+            </div>
+
+
+            <nav id="overlay-menu">
+                <a href="#" onclick="openOverlay()">
+                    <img src="A2_Cross_Content/Graphics/hamburger.png" alt="">
+                </a>
+                <a href="home-projects.html">HOME</a>
+                <a href="home-projects.html">WORK</a>
+                <a href="about.html">ABOUT</a>
+                <!-- <a href="bio.html">Projects</a> -->
+                <a href="contact.html">CONTACT</a>
+
+            </nav>
+
+            <!-- <nav>
+                <a href="home-projects.html"><img src="A2_Cross_Content/Graphics/hamburger.png" alt=""></a>
+                <a href="home-projects.html">HOME</a>
+                <a href="home-projects.html">WORK</a>
+                <a href="about.html">ABOUT</a>
+                <a href="contact.html">CONTACT</a>
+            </nav> -->
+
+            <footer>
+                <div id="footerContent">
+
+                    <a href="https://www.linkedin.com/in/maraylacross/?trk=public-profile-join-page" target="_blank">
+                        <img src="A2_Cross_Content/Graphics/logo-linkedin.svg" alt="linkedin"> 
+                    </a>
+
+                    <a href="https://www.instagram.com/maraylaDesigns/" target="_blank">
+                        <img src="A2_Cross_Content/Graphics/logo-instagram.svg" alt="instagram"> 
+                    </a>
+                
+                </div>
+
+            </footer>
+        </main>
+    </section>
+
+<script src="script.js"></script>
 
 </body>
 </html>
