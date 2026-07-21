@@ -467,13 +467,13 @@ nav a:nth-of-type(1) {
 
 }
 
-#overlay-menu a:nth-of-type(5) {
+/* #overlay-menu a:nth-of-type(5) {
     padding: 20px;
 
     position: absolute;
     bottom: 10%;
 
-}
+} */
 
 #overlay-menu img {
     max-width: 30px;
@@ -1049,20 +1049,20 @@ section#carousel {
     max-height: 50px;
     }
 
-nav a {
-    border-radius: 7.113px;
-    background: linear-gradient(107deg, #A268AC 4.26%, #2E2453 65.79%);
+    nav a {
+        border-radius: 7.113px;
+        background: linear-gradient(107deg, #A268AC 4.26%, #2E2453 65.79%);
 
-    box-shadow: -3.32px 3.32px 1.897px 0 rgba(173, 159, 175, 0.25);
-    
+        box-shadow: -3.32px 3.32px 1.897px 0 rgba(173, 159, 175, 0.25);
+        
 
-    padding: 0.25rem;
+        padding: 0.25rem;
 
-    color: aliceblue;
+        color: aliceblue;
 
-    /* flex: ; */
+        /* flex: ; */
 
-}
+    }
 
 nav a:not(:nth-of-type(1)) {
 
