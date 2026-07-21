@@ -189,6 +189,7 @@ img {
         font-size: 1.25rem;
     }
 
+
     #PROJECTS > div {
 
         /* align-self: center;
@@ -1198,6 +1199,11 @@ nav a:nth-of-type(1) {
 
 
     }
+
+    /* p#content {
+
+        font-size: 0.3rem;
+    } */
 
      #UI {
         display: flex;
