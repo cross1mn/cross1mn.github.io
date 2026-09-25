@@ -17,8 +17,8 @@
 :root {
 
     font-size: 18pt;
-    --primaryColor: rgb(0, 140, 255);
-    --secondaryColor: rgb(0, 255, 0);
+    --primaryColor: rgb(62, 0, 121);
+    --secondaryColor: #A268AC;
 
     --h1FontSize: 2rem;
     --headingFF: "Roca";
@@ -249,7 +249,7 @@ img {
     nav > a:hover {
 
         /* text-decoration: none; */
-        background-color: blueviolet;
+        background-color: #A268AC;
         color: white;
         font-size: 1.3rem;
 
@@ -459,7 +459,7 @@ section#carousel {
 
 #carousel-wrapper > div:nth-of-type(1) {
 
-    background-color: rgb(201, 29, 29);
+    background-color: #A268AC;
 }
 
 /* footer start */
