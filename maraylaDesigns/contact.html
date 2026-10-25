@@ -4,18 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>contactMe</title>
-    <link rel="stylesheet" href="maraylaDesigns/portfolioStyle.css">
+    <link rel="stylesheet" href="portfolioStyle.css">
     <link rel="stylesheet" href="https://use.typekit.net/aze8lrf.css">
 </head>
-<body>
-    <main>
 
-    <div id="overlay-menu"  class="overlay-menu open" ; display: flex;">
+
+<body>
+
+    <div id="overlay-menu"  class="overlay-menu open" ; display: flex;>
         <a href="#" onclick="closeOverlay()">✖</a>
         <a href="marayla.html" onclick="closeOverlay()">Home</a>
-        <a href="C:\Users\cross\OneDrive - Central Michigan University\cross1mn.github.io\marayla.html">Projects</a>
+        <a href="#students" onclick="closeOverlay()">Projects</a>
         <!-- <a href="bio.html">Projects</a> -->
-        <a href="maraylaDesigns/contact.html">Contact</a>
+        <a href="#logoTop" onclick="closeOverlay()">Contact</a>
 
     </div>
 
@@ -26,24 +27,30 @@
             <a href="#HOME">Home</a>
             <a href="#students">Projects</a>
             <!-- <a href="maraylaDesigns/about.html">About</a> -->
-            <a href="maraylaDesigns/contact.html">Contact</a>
+            <a href="#logoTop">Contact</a>
 
         </nav>
     </header>
+    
+    <main>
 
-        <div id="logo">
-             <a href="home-projects.html">
-                <img src="A2_Cross_Content/Graphics/maraylaDesigns.png" alt="">
-             </a>
-        </div>
+        <section id="logoTop">
+            
+            <div id="logo">
+                <a href="home-projects.html">
+                    <img src="A2_Cross_Content/Graphics/maraylaDesigns.png" alt="">
+                </a>
+             </div>
         
 
-        <div id="headerGraphic">
-            <img src="A2_Cross_Content/Graphics/1top.png" alt="">
-        </div>
+            <div id="headerGraphic">
+                <img src="A2_Cross_Content/Graphics/1top.png" alt="">
+            </div>
 
-        <div class="hShadow"></div>
-        <div class="hShadow"></div>
+            <div class="hShadow"></div>
+            <div class="hShadow"></div>
+
+        </section>
 
 
         <form action="">
@@ -80,30 +87,6 @@
                 <a href="contact.html">CONTACT</a>
             </div> -->
 
-
-            <div id="overlay-menu"  class="overlay-menu open" ; display: flex;">
-                <a href="home-projects.html">HOME</a>
-                <a href="home-projects.html">WORK</a>
-                <a href="about.html">ABOUT</a>
-                <!-- <a href="bio.html">Projects</a> -->
-                <a href="contact.html">CONTACT</a>
-                <a href="#" onclick="closeOverlay()">✖</a>
-
-            </div>
-
-
-            <nav id="overlay-menu">
-                <a href="#" onclick="openOverlay()">
-                    <img src="A2_Cross_Content/Graphics/hamburger.png" alt="">
-                </a>
-                <a href="home-projects.html">HOME</a>
-                <a href="home-projects.html">WORK</a>
-                <a href="about.html">ABOUT</a>
-                <!-- <a href="bio.html">Projects</a> -->
-                <a href="contact.html">CONTACT</a>
-
-            </nav>
-
             <!-- <nav>
                 <a href="home-projects.html"><img src="A2_Cross_Content/Graphics/hamburger.png" alt=""></a>
                 <a href="home-projects.html">HOME</a>
@@ -127,8 +110,10 @@
 
         </footer>
 
+
     </main>
 
+<script src="maraylaDesigns/portfolioJScript.js"></script>
 
 
 </body>
