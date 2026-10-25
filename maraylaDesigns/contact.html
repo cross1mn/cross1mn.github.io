@@ -11,40 +11,38 @@
 
 <body>
 
-    <div id="overlay-menu"  class="overlay-menu open" ; display: flex;>
-        <a href="#" onclick="closeOverlay()">✖</a>
-        <a href="marayla.html" onclick="closeOverlay()">Home</a>
-        <a href="#students" onclick="closeOverlay()">Projects</a>
-        <!-- <a href="bio.html">Projects</a> -->
-        <a href="#logoTop" onclick="closeOverlay()">Contact</a>
 
-    </div>
+    <!-- <div id="overlay-menu" class="overlay-menu open" style="display: flex;">
+        <a href="#" onclick="closeOverlay(); return false;">✖</a>
+        <a href="../marayla.html">Home</a>
+        <a href="../marayla.html">Projects</a>
+        <a href="#logoTop" onclick="closeOverlay()">Contact</a>
+    </div> -->
 
     <header>
         <span class="brand">  </span>
          <nav>
             <a href="#" onclick="openOverlay()">☰</a>
-            <a href="#HOME">Home</a>
-            <a href="#students">Projects</a>
-            <!-- <a href="maraylaDesigns/about.html">About</a> -->
-            <a href="#logoTop">Contact</a>
+        <a href="../marayla.html" onclick="closeOverlay()">Home</a>
+        <a href="../marayla.html" onclick="closeOverlay()">Projects</a>
+        <a href="#logoTop" onclick="closeOverlay()">Contact</a>
 
         </nav>
     </header>
     
     <main>
 
-        <section id="logoTop">
+        <section id="contactTop">
             
             <div id="logo">
                 <a href="home-projects.html">
-                    <img src="A2_Cross_Content/Graphics/maraylaDesigns.png" alt="">
+                    <img src="crossContent/Graphics/maraylaDesigns.png" alt="">
                 </a>
              </div>
         
 
             <div id="headerGraphic">
-                <img src="A2_Cross_Content/Graphics/1top.png" alt="">
+                <img src="crossContent/Graphics/" alt="">
             </div>
 
             <div class="hShadow"></div>
@@ -53,67 +51,51 @@
         </section>
 
 
-        <form action="">
-            <label for="name">Full Name</label>
-            <input type="text" id="name" name="name" placeholder="Enter Here" required>
+        <section id="contactBottom">
+             <form action="">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter Here" required>
 
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="Enter Here" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter Here" required>
 
-            <label for="phone">Phone</label>
-            <input type="text" id="phone" name="phone" placeholder="Enter Here" required>
+                <label for="phone">Phone</label>
+                <input type="text" id="phone" name="phone" placeholder="Enter Here" required>
 
-            <label for="subject">Subject</label>
-            <input type="text" id="subject" name="subject" placeholder="Enter Here" required>
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" placeholder="Enter Here" required>
 
-            <label for="message">Message</label>
-            <input type="textarea" id="message" cols="30" rows="10" placeholder="Enter Here" required>
-            
-            <input type="submit">
+                <label for="message">Message</label>
+                <input type="textarea" id="message" cols="30" rows="10" placeholder="Enter Here" required>
+                
+                <input type="submit">
 
-            <!-- <button type="submit">Submit</button>
-            <button type="reset">Reset</button> -->
+                <!-- <button type="submit">Submit</button>
+                <button type="reset">Reset</button> -->
 
+            </form>
 
-        </form>
+        </section>
 
-
-        <!-- <div id="overlay-menu"  class="overlay-menu open" ; display: flex;">
-                <a href="#" onclick="closeOverlay()">
-                    <img src="A2_Cross_Content/Graphics/hamburger.png" alt="">
-                </a>
-                <a href="home-projects.html">HOME</a>
-                <a href="about.html">ABOUT</a>
-                <a href="contact.html">CONTACT</a>
-            </div> -->
-
-            <!-- <nav>
-                <a href="home-projects.html"><img src="A2_Cross_Content/Graphics/hamburger.png" alt=""></a>
-                <a href="home-projects.html">HOME</a>
-                <a href="home-projects.html">WORK</a>
-                <a href="about.html">ABOUT</a>
-                <a href="contact.html">CONTACT</a>
-            </nav> -->
 
         <footer>
-            <div id="footerContent">
+         <div id="footerContent">
 
-                <a href="https://www.linkedin.com/in/maraylacross/?trk=public-profile-join-page" target="_blank">
-                    <img src="A2_Cross_Content/Graphics/logo-linkedin.svg" alt="linkedin"> 
-                </a>
+            <a href="https://www.linkedin.com/in/maraylacross/?trk=public-profile-join-page" target="_blank">
+                <img src="crossContent/Graphics/logo-linkedin.svg" alt="linkedin"> 
+            </a>
 
-                <a href="https://www.instagram.com/maraylaDesigns/" target="_blank">
-                    <img src="A2_Cross_Content/Graphics/logo-instagram.svg" alt="instagram"> 
-                </a>
+            <a href="https://www.instagram.com/maraylaDesigns/" target="_blank">
+                <img src="crossContent/Graphics/logo-instagram.svg" alt="instagram"> 
+            </a>
             
-            </div>
-
+        </div>
         </footer>
 
 
     </main>
 
-<script src="maraylaDesigns/portfolioJScript.js"></script>
+<script src="portfolioJScript.js"></script>
 
 
 </body>
