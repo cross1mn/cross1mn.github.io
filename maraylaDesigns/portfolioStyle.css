@@ -161,6 +161,11 @@ img {
 
     }
 
+    p {
+        font-size: 0.75rem;
+
+    }
+
 
 /* global styles end */
 
@@ -203,6 +208,7 @@ img {
     top: var(--containerPadding);
     right: var(--containerPadding);
 }
+
 
 /* .overlay-menu open {
 
@@ -279,10 +285,6 @@ img {
 
 /* students page start */
 
-p {
-    font-size: 0.75rem;
-
-}
 
     #students {
 
@@ -359,6 +361,37 @@ p {
     }
 
 /* bio page end */
+
+
+
+/* -- CONTACT PAGE START ------------------------------------- */
+
+    #contactTop {
+
+        padding: 30vw;
+    }
+
+    form {
+
+        font-size: 0.5rem;
+        padding: 10vw;
+        max-width: 75vw;
+
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        justify-content: center;
+
+        gap: 15px;
+    }
+
+
+    input, textarea, button {
+        font-size: 1rem;
+
+    }
+
+/* -- CONTACT PAGE END ------------------------------------- */
 
 
 
